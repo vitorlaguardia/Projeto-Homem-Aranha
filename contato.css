@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    font-size: 20px;
+    color: #e60000;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    list-style: none;
+    transition: .5s;
+}
+
+li:hover {
+    color: aliceblue;
+}
+
+#logo {
+    width: 220px;
+    height: auto;
+    margin-top: 18px;
+}
+
+.ado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#fale {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pai {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 650px;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 700px;
+    height: 45px;
+    background-color: black;
+    display: block;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    border: 2px solid aliceblue;
+    margin-top: 10px;
+}
+
+#texto {
+    width: 700px;
+    height: 170px;
+    background-color: black;
+    display: block;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    border: 2px solid aliceblue;
+    margin-top: 10px;
+}
+
+label {
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    display: block;
+}
+
+button {
+    color: black;
+    height: 55px;
+    width: 170px;
+    background-color: aliceblue;
+    font-size: 20px;
+    border: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+   
+
+footer {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paidobanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    background-image: url("https://img.elo7.com.br/product/original/1B71769/painel-1x0-70-homem-aranha-spider-man.jpg");
+    background-position: 20% 50%;
+    background-size: cover;
+    width: 80%;
+    height: 770px;
+}

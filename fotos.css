@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    font-size: 20px;
+    color: #e60000;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    list-style: none;
+    transition: .5s;
+}
+
+li:hover {
+    color: aliceblue;
+}
+
+#logo {
+    width: 220px;
+    height: auto;
+    margin-top: 18px;
+}
+
+.fotos-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fotos-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cardne {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+
+
+.foto1 {
+    background-image: url("https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=675&crop=1");
+}
+
+.foto2 {
+    background-image: url("https://rollingstone.uol.com.br/media/uploads/zoe_kravitz_como_mulher_gato_em_the_batman_foto_reproducao_warner.jpg"); 
+}
+
+.foto3 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg"); 
+}
+
+.foto4 {
+    background-image: url("https://static1.purepeople.com.br/people/1/19/71/@/54-robert-pattinson-560x315-1.jpg");
+}
+
+.foto5 {
+    background-image: url("https://br.web.img2.acsta.net/pictures/20/10/07/20/38/1264964.jpg");
+}
+
+.foto6 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8RnMA9uAYpEMWIhhXegiy9mkhRWLJTPkdBsEF6bMwg&s");
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam thmor pro' , sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
